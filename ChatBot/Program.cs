@@ -14,12 +14,17 @@ namespace ChatBot
 
             public void userInput()
             {
-               
+                Console.WriteLine("Enter your name: ");
+                name = Console.ReadLine();
+
+
+                Console.ReadLine();
             }
         }
         static void Main(string[] args)
         {
-            
+            chatBot Bot = new chatBot();
+            Bot.userInput();
         }
     }
 }
