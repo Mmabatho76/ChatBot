@@ -15,7 +15,7 @@ namespace ChatBot
 
             public void userInput()
             {
-                Console.WriteLine("Enter your name: ");
+                Console.Write("Enter your name: ");
                 name = Console.ReadLine();
 
                 Console.ReadLine();
@@ -26,12 +26,15 @@ namespace ChatBot
         {
             public void display()
             {
-                Console.WriteLine("Hi " + name + "Welcome to Cybersecurity , I hope i will be able to assist you where needed");
+   
+                Console.WriteLine("Hi " + name + " ,Welcome to Cybersecurity , I hope i will be able to assist you where needed");
 
                 while(string.IsNullOrEmpty(name))
                 {
                     Console.Write("Enter your name: ");
                     name = Console.ReadLine();
+
+                    Console.ReadLine();
 
                 }
 
@@ -70,6 +73,25 @@ namespace ChatBot
         static void Main(string[] args)
         {
             questions bot = new questions();
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(@"
+╔══════════════════════════════════════════════════════╗
+║              CYBERSECURITY SYSTEM                    ║
+╠══════════════════════════════════════════════════════╣
+║        _____ _____  _____  ______ _____              ║
+║       / ____|  __ \|  __ \|  ____|  __ \             ║
+║      | (___ | |  | | |__) | |__  | |  | |            ║
+║       \___ \| |  | |  _  /|  __| | |  | |            ║
+║       ____) | |__| | | \ \| |____| |__| |            ║
+║      |_____/|_____/|_|  \_\______|_____/             ║
+║                                                      ║
+║                 AZEEBOT - CYBERSECURITYBOT           ║
+║            Stay Safe. Stay Smart.                    ║
+╚══════════════════════════════════════════════════════╝
+");
+
+            Console.ResetColor();
 
             Console.WriteLine("Hi , Welcome to CyberSecurity Quizz...\n");
 
