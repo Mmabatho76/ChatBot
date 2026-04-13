@@ -8,7 +8,7 @@ namespace AzeeBotApp
 {
     internal class Logo
     {
-
+        //ChatGPT helped me to generate ASCII art logo for AzeeBot  
         public void DisplayLogo()
         {
             Console.ForegroundColor = ConsoleColor.Green;
