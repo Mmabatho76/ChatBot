@@ -197,7 +197,10 @@ namespace AzeeBotApp
                     TypeMessage("Change passwords every few months or if compromised.");
 
                 else if (input.Contains("manager"))
-                    TypeMessage("A password manager stores and generates secure passwords.");
+                    TypeMessage("A password manager is software that helps users create strong passwords, " +
+                        "store them in a digital vault protected by a single master password," +
+                        " and then retrieve them as needed when logging into accounts.\r\n\rSo basically, a password manager stores" +
+                        " and generates secure passwords.");
 
                 else if (input.Contains("hackers"))
                     TypeMessage("Yes, weak passwords can be guessed easily using tools.");
@@ -210,19 +213,34 @@ namespace AzeeBotApp
             else if (currentTopic == "phishing")
             {
                 if (input.Contains("what"))
-                    TypeMessage("Phishing is a scam to trick you into giving personal info.");
+                    TypeMessage("Phishing is a type of cyberattack where attackers impersonate" +
+                        " trusted sources to steal sensitive information or install malware(e.g.worms,viruses,etc).");
 
-                else if (input.Contains("email"))
-                    TypeMessage("Check spelling, sender address, and suspicious links.");
+
 
                 else if (input.Contains("clicked"))
-                    TypeMessage("Disconnect from internet and change your passwords immediately.");
+                    TypeMessage("If you clicked on a phishing link, follow these steps immediately:\r\r\n" +
+                        "\r\n\r\nDisconnect from the Internet: This helps prevent any potential malware from " +
+                        "communicating with external servers." +
+                        "\r\n\r\nDo not interact with the website: Leave the site immediately and avoid entering" +
+                        "any personal information. " +
+                        "\r\n\r\nScan your device: Use antivirus software to check for malware or any suspicious activity." +
+                        "\r\n\r\nMonitor your accounts: Keep an eye on your online accounts for any unauthorized transactions " +
+                        "or changes." +
+                        "\r\n\r\nChange your passwords: If you entered any sensitive information, change your passwords" +
+                        "for those accounts as a precaution." +
+                        "\r\n\r\nBy taking these steps, you can help protect your information and mitigate potential risks.");
 
                 else if (input.Contains("whatsapp") || input.Contains("sms"))
-                    TypeMessage("Yes! Phishing can happen through messages too.");
+                    TypeMessage("Yes! phishing is very common on both WhatsApp and SMS, " +
+                        "often referred to as \"smishing\" (SMS phishing) when it occurs" +
+                        "via text message. Scammers use these platforms to bypass email filters" +
+                        "and target users directly on their phones, where they are more likely to trust incoming messages.");
 
                 else if (input.Contains("why"))
-                    TypeMessage("Hackers use phishing because it's easy and effective.");
+                    TypeMessage("Hackers use phishing attacks primarily because they are an easy, cheap," +
+                        "and highly effective way to exploit human psychology rather than breaking through" +
+                        "complex technical security measures.");
 
                 else
                     TypeMessage("Ask one of the listed phishing questions.");
@@ -232,7 +250,24 @@ namespace AzeeBotApp
             else if (currentTopic == "browsing")
             {
                 if (input.Contains("safe"))
-                    TypeMessage("Look for HTTPS and a lock icon in the browser.");
+                    TypeMessage("To know if a website is safe, you should check for technical security markers," +
+                        "use automated verification tools, and look for \"red flags\" in the site's content and design." +
+                        "\r\n\r\nTechnical Security Indicators\r\nCheck for HTTPS: Secure websites use https:// instead of http://." +
+                        "The \"s\" stands for secure and indicates that your connection is encrypted." +
+                        "\r\n\r\nLook for the Padlock: Most browsers display a closed padlock icon in the address bar." +
+                        "\r\n\r\nYou can click this icon to view the site's security certificate and verify the owner's identity." +
+                        "\n Use Online Safety Checkers\r\r\n " +
+                        "\r\n\r\nBefore clicking a suspicious link or entering data," +
+                        " paste the URL into a reputable scanner. " +
+                        "\r\nGoogle Transparency Report: " +
+                        "Uses Google's Safe Browsing technology to flag dangerous sites. " +
+                        "Identify Content \"Red Flags\" \r\nPoor Design and Grammar: Legitimate businesses " +
+                        "usually invest in professional design. Frequent typos, broken links, or low-quality " +
+                        "graphics are major warning signs." +
+                        "\r\n\r\nLack of Contact Info: Trustworthy sites clearly " +
+                        "list a physical address, phone number, and a \"Contact Us\" or \"About Us\" page." +
+                        "\r\n\r\nMissing Legal Pages: Look for a Privacy Policy and Terms of Service, typically " +
+                        "found in the website footer.");
 
                 else if (input.Contains("https"))
                     TypeMessage("HTTPS means the site is encrypted and more secure.");
