@@ -132,6 +132,10 @@ Developed by Mmabatho Vilakazi
 
 ===================================================================================
 
-## 🛡️ Motto
-
-**Stay Safe. Stay Smart.**
+Reference list:
+- Wikipedia, 2026. HTTPS. [online] Available at: <https://en.wikipedia.org/wiki/HTTPS> [Accessed 13 April 2026].
+- Comodo cWatch, 2026. Check Website Reputation / Site Scan. [online] Available at: <https://cwatch.comodo.com/site-scan/check-website-reputation.php>
+  [Accessed 12April 2026].
+- Boston University, 2026. How to identify and protect yourself from an unsafe website. [online] Available at: <https://www.bu.edu/tech/support/information-security/security-for-everyone/how-to-identify-and-protect-yourself-from-an-unsafe-website/> [Accessed 11 April 2026].
+- McAfee, 2026. 8 ways to know if online stores are safe and legit. [online] Available at: <https://www.mcafee.com/learn/8-ways-to-know-if-online-stores-are-safe-and-legit/> [Accessed 10 April 2026].
+  
