@@ -36,7 +36,7 @@ namespace AzeeBotApp
                     else if (input == "3" || input.Contains("phishing"))
                         currentTopic = "phishing";
 
-                    else if (input == "4" || input.Contains("browse") || input.Contains("website"))
+                    else if (input == "4" || input.Contains("safe") || input.Contains("browsing"))
                         currentTopic = "browsing";
 
                     else if (input == "5" || input.Contains("exit") || input.Contains("bye"))
