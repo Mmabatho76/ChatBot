@@ -8,12 +8,9 @@ using System.Threading.Tasks;
 namespace AzeeBotApp
 
 {
-
-
     public class ChatBot
     {
-
-        // Base chatbot class (Encapsulation)
+        //Chatbot class (Encapsulation)
         public string UserName { get; set; }
         public string BotName { get; set; } = "AzeeBot";
 
