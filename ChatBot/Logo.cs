@@ -14,7 +14,7 @@ namespace AzeeBotApp
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(@"
 ╔══════════════════════════════════════════════════════╗
-║                 🤖 AZEEBOT SYSTEM                   ║
+║                  AZEEBOT SYSTEM                      ║
 ╠══════════════════════════════════════════════════════╣
 ║        _____ _____  _____  ______ _____              ║
 ║       / ____|  __ \|  __ \|  ____|  __ \             ║
